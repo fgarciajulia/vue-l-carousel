@@ -58,7 +58,8 @@
 			<slot></slot>
 		</div>
 		<div class="v-carousel-dots" :style="dotsStyle" v-if="dots">
-			<div :class="{'v-carousel-dot': true, 'active': activeIndex==index}" @click="to(index)"
+			<div
+			:class="{'v-carousel-dot': true, 'active': activeIndex==index, 'actived': activeIndex>index, 'to-activate': activeIndex<index}" @click="to(index)"
 				 v-for="(item, index) in watchItems" :style="dotStyle" ></div>
 		</div>
 		<div class="v-carousel-nav prev" @click="prev" v-show="hasLoop || (itemsLen > 1 && activeIndex > 0)"
