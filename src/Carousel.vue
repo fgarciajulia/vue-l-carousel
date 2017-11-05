@@ -1,5 +1,6 @@
 <style lang="less">
 	.v-carousel {
+    touch-action: none;
 		&-items {
 			overflow: hidden;
 		}
