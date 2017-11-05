@@ -130,6 +130,12 @@ export default {
             <td>Style of v-carousel-dots</td>
         </tr>
         <tr>
+            <td>dot-style</td>
+            <td>[Object, String, Array]</td>
+            <td><pre>''</pre></td>
+            <td>Style of v-carousel-dot</td>
+        </tr>
+        <tr>
             <td>watch-items<sup>[1][2]</sup></td>
             <td>Array</td>
             <td><pre>[]</pre></td>
