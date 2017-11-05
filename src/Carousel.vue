@@ -546,6 +546,7 @@ export default {
 			var realIndex,
 				onSlideEnd;
 
+			me.on()
 			if (hasLoop) {
 				if (index == -1) {
 					onSlideEnd = function () {
