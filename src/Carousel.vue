@@ -667,7 +667,6 @@ export default {
 					const percent = currentPos + ((stop.coords[0] - start.coords[0])
 						/ elWidth * 100 / me.slideCount);
 					transTo(percent);
-					e.preventDefault();
 				}
 			}
 
